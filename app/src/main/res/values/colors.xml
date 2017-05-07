@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2a95dd</color>
+    <color name="colorPrimaryDark">#0075c3</color>
+    <color name="colorAccent">#2a95dd</color>
+    <color name="colorLine">#99d2d7d2</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="textColorBlue">#0063b0</color>
+    <color name="welcomeMenuBg">#6c18fd</color>
+    <color name="emergencyMenuBg">#c9181b</color>
+    <color name="buttonMenuBg">#f57824</color>
+    <color name="travelMenuBg">#ffcd05</color>
+    <color name="mapMenuBg">#00b712</color>
+    <color name="pinMenuBg">#1950f7</color>
+    <color name="settingMenuBg">#747474</color>
+
+    <!-- Light Colors -->
+    <color name="text_color_primary_light">#FF212121</color>
+    <color name="text_color_secondary_light">#FFBDBDBD</color>
+    <color name="contact_badge_line_light">#ffffffff</color>
+    <color name="contact_badge_triangle_light">#cc1f1f1f</color>
+    <color name="contact_badge_overlay_light">#aa888888</color>
+    <color name="background_light">#aa888888</color>
+</resources>

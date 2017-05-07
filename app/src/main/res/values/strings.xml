@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">USafe</string>
+    <string name="google_maps_api_key">AIzaSyB6yMoK98piZ4RRQ0n3o6nJvLTNZBGWOvQ</string>
+    <string-array name="changepin_array">
+        <item>Assault(Red)</item>
+        <item>Discrimination(Purple)</item>
+        <item>Stalking(Blue)</item>
+        <item>Theft/Robbery(Green)</item>
+        <item>Others(Yellow)</item>
+    </string-array>
+    <string-array name="time_selection">
+        <item>At the end</item>
+        <item>customize</item>
+    </string-array>
+
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="cp_contact_tab_title">Contacts</string>
+    <string name="cp_group_tab_title">Groups</string>
+    <string name="cp_no_contacts">No Contacts</string>
+    <string name="cp_no_groups">No Groups</string>
+    <plurals
+        name="cp_group_description">
+        <item quantity="one">(%1$d contact)</item>
+        <item quantity="other">(%1$d contacts)</item>
+    </plurals>
+    <string name="cp_actionmode_selected">%d selected</string>
+    <string name="cp_limit_reached">You can\'t pick more than %d contacts!</string>
+
+</resources>

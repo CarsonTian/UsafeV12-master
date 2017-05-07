@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <include layout="@layout/item_toolbar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorLine"
+        android:layout_height="2dp"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorLine"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_changepin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spin_changepin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorLine"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_addnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/et_addNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="Add Note"
+            android:background="@null"
+            android:minLines="6"
+            android:maxLines="8"
+            android:inputType="textMultiLine"
+            android:imeOptions="actionDone"
+            android:textSize="40px"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorLine"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_deletepin"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Pin"
+            android:textSize="40px"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="2dp"
+        android:background="@color/colorLine"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/ll_savepin"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Pin"
+            android:textSize="40px"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:background="@color/colorLine"
+        android:layout_height="2dp"/>
+</LinearLayout>

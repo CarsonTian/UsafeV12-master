@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id ="@+id/frag_safetybutton">
+    <include layout="@layout/frag_button_top"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_sb_contactName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_contactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Name:"
+                android:textSize="35px"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_sb_contactNumber"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_contactPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Number:"
+                android:textSize="35px"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <com.example.greyson.test1.widget.CountDownView
+        android:id="@+id/countdownview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:showSec="true"
+        android:gravity="center"
+        custom:numberColor="@android:color/black"
+        custom:unitColor="@android:color/black" />
+
+</LinearLayout>
